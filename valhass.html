@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>jQuery Validation </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+  #validation{
+    border: 1px solid black;
+    height:300px;
+    width:70%;
+    border-radius: 10px;
+    box-shadow: 0 0 1.1rem rgba(0, 0, 0, 0.582);
+    background: linear-gradient(to bottom,#000066 5% ,#33ccff 90% );
+    margin-top: 50px;   
+    }	
+  #nom{
+    width:70%;
+    border-radius: 10px;
+    margin-top: 7%;
+    height: 30px;
+  }
+   #vaal{
+     color:black;
+     border-radius: 10px;
+     margin-top: 5%;
+     width: 30%;
+     height: 30px;
+   }
+   p{
+     color: aliceblue;
+   }
+  </style>
+</head>
+<body >
+	                <center>
+                	<form id = "validation">
+                    <p>
+                    Validation avec jQuery
+                    </p>
+                    <hr>
+                      <input type = "text" name = "nom" placeholder = "Nom" id="nom" />
+                      <div id="nomMsg" ></div>
+                      <input type="submit" value="se connecter" id="vaal"/>
+                    </form>
+                  </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="valhass.js"></script>  
+</body>
+</html>
